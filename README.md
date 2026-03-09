@@ -31,4 +31,13 @@ from htp.css //chatgpt assisted so I could get the cards to flip and glow
     transform: scale(1.05);
     box-shadow: 0 0 30px rgba(52, 152, 219, 1), 0 0 60px rgba(52, 152, 219, 0.5);
 }
+.card-front{
+    color:black;
+}
 
+.card-back{
+    transform: rotateY(180deg);
+    overflow: hidden;
+    padding: 0;
+    background: white;
+}
