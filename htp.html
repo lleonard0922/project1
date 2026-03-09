@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to BlackJack! Project</title>
+<link rel="stylesheet" href="htp.css">
+</head>
+
+
+<body class="body">
+    <header class="header">
+    <a href="index.html" class="header-cards">
+      <div class="card card-top">
+          
+          <span class="spade top-left">&#9824;</span>
+          <span class="spade bottom-right">&#9824;</span>
+      </div>
+
+      <div class="card card-bottom">
+          
+          <span class="heart top-left">&#10084;</span>
+          <span class="heart bottom-right">&#10084;</span>
+      </div>
+    </a>
+    <nav class="nav-links">
+      <a href="htp.html">How to Play</a>
+      <a href="strat.html">Strategies</a>
+      <a href="history.html">History</a>
+      <a href="credit.html">Sources</a>
+    </nav>
+</header>
+
+    <h1>How To Play!</h1>
+    <p class="info">The goal of Blackjack is to bea the dealer's hand without going over 21. In Blackjack, every player is competing against the dealer- not against each other. In each round, the player's goal is to get a hand that's higher than dealer's(without being higher than 21 or "busting"). Only by beating the dealer can a player win their bet. Players determine the value of their hand by tallying up the point values of their cards.</p>
+    <h3>Ranking System</h3>
+
+    <table class="ranking-table">
+    <tr>
+    <th>Cards</th>
+    <th>Value of Cards</th>
+  </tr>
+  <tr>
+    <td class="card-name"> Ace
+      <div class="ranking-cards">
+        <div class="card-inner">
+
+          <div class="card-front">
+            A
+            <span class="spade top-left">&#9824;</span>
+            <span class="spade bottom-right">&#9824;</span>
+          </div>
+
+          <div class="card-back">
+            <img src="back-card.jpg" alt="back of a playing card">
+          </div>
+
+        </div>
+      </div>
+    </td>
+    <td>1 or 11(depending on player)</td>
+    
+  </tr>
+  <tr>
+    <td class="card-name"> Two
+      <div class="ranking-cards">
+        <div class="card-inner">
+
+          <div class="card-front">
+            2
+            <span class="heart top-left">&#10084;</span>
+            <span class="heart bottom-right">&#10084;</span>
+          </div>
+
+          <div class="card-back">
+            <img src="back-card.jpg" alt="back of a playing card">
+          </div>
+
+        </div>
+      </div>
+    </td>
+    <td>2 points</td>
+  </tr>
+
+  <tr>
+    <td class="card-name"> Three
+      <div class="ranking-cards">
+        <div class="card-inner">
+
+          <div class="card-front">
+            3
+            <span class="diamond top-left">&#x2666;</span>
+            <span class="diamond bottom-right">&#x2666;</span>
+          </div>
+
+          <div class="card-back">
+            <img src="back-card.jpg" alt="back of a playing card">
+          </div>
+
+        </div>
+      </div>
+    </td>
+    <td>3 points</td>
+  </tr>
+
+  <tr>
+    <td class="card-name"> Four
+      <div class="ranking-cards">
+        <div class="card-inner">
+
+          <div class="card-front">
+            4
+            <span class="club top-left">&#9827;</span>
+            <span class="club bottom-right">&#9827;</span>
+          </div>
+
+          <div class="card-back">
+            <img src="back-card.jpg" alt="back of a playing card">
+          </div>
+
+        </div>
+      </div>
+    </td>
+    <td>4 points</td>
+  </tr>
+
+  <tr>
+    <td class="card-name"> Five
+      <div class="ranking-cards">
+        <div class="card-inner">
+
+          <div class="card-front">
+            5
+            <span class="spade top-left">&#9824;</span>
+            <span class="spade bottom-right">&#9824;</span>
+          </div>
+
+          <div class="card-back">
+            <img src="back-card.jpg" alt="back of a playing card">
+          </div>
+
+        </div>
+      </div>
+    </td>
+    <td>5 points</td>
+    </tr>
+
+    <tr>
+    <td class="card-name"> Six
+      <div class="ranking-cards">
+        <div class="card-inner">
+
+          <div class="card-front">
+            6
+            <span class="heart top-left">&#10084;</span>
+            <span class="heart bottom-right">&#10084;</span>
+          </div>
+
+          <div class="card-back">
+            <img src="back-card.jpg" alt="back of a playing card">
+          </div>
+
+        </div>
+      </div>
+    </td>
+    <td>6 points</td>
+  </tr>
+
+    <tr>
+    <td class="card-name"> Seven
+      <div class="ranking-cards">
+        <div class="card-inner">
+
+          <div class="card-front">
+            7
+            <span class="diamond top-left">&#x2666;</span>
+            <span class="diamond bottom-right">&#x2666;</span>
+          </div>
+
+          <div class="card-back">
+            <img src="back-card.jpg" alt="back of a playing card">
+          </div>
+
+        </div>
+      </div>
+    </td>
+    <td>7 points</td>
+  </tr>
+
+  <tr>
+    <td class="card-name"> Eight
+      <div class="ranking-cards">
+        <div class="card-inner">
+
+          <div class="card-front">
+            8
+            <span class="club top-left">&#9827;</span>
+            <span class="club bottom-right">&#9827;</span>
+          </div>
+
+          <div class="card-back">
+            <img src="back-card.jpg" alt="back of a playing card">
+          </div>
+
+        </div>
+      </div>
+    </td>
+    <td>8 points</td>
+  </tr>
+
+  <tr>
+    <td class="card-name"> Nine
+      <div class="ranking-cards">
+        <div class="card-inner">
+
+          <div class="card-front">
+            9
+            <span class="spade top-left">&#9824;</span>
+            <span class="spade bottom-right">&#9824;</span>
+          </div>
+
+          <div class="card-back">
+            <img src="back-card.jpg" alt="back of a playing card">
+          </div>
+
+        </div>
+      </div>
+    </td>
+    <td>9 points</td>
+    
+  </tr>
+
+   <tr>
+    <td class="card-name"> Ten
+      <div class="ranking-cards">
+        <div class="card-inner">
+
+          <div class="card-front">
+            10
+            <span class="heart top-left">&#10084;</span>
+            <span class="heart bottom-right">&#10084;</span>
+          </div>
+
+          <div class="card-back">
+            <img src="back-card.jpg" alt="back of a playing card">
+          </div>
+
+        </div>
+      </div>
+    </td>
+    <td>10 points</td>
+  </tr>
+
+  <tr>
+    <td class="card-name"> Jack
+      <div class="ranking-cards">
+        <div class="card-inner">
+
+          <div class="card-front">
+            J
+            <span class="diamond top-left">&#x2666;</span>
+            <span class="diamond bottom-right">&#x2666;</span>
+          </div>
+
+          <div class="card-back">
+            <img src="back-card.jpg" alt="back of a playing card">
+          </div>
+
+        </div>
+      </div>
+    </td>
+    <td>10 points</td>
+  </tr>
+
+   <tr>
+    <td class="card-name"> Queen
+      <div class="ranking-cards">
+        <div class="card-inner">
+
+          <div class="card-front">
+            Q
+            <span class="spade top-left">&#9824;</span>
+            <span class="spade bottom-right">&#9824;</span>
+          </div>
+
+          <div class="card-back">
+            <img src="back-card.jpg" alt="back of a playing card">
+          </div>
+
+        </div>
+      </div>
+    </td>
+    <td>10 points</td>
+
+    <tr>
+    <td class="card-name"> King
+      <div class="ranking-cards">
+        <div class="card-inner">
+
+          <div class="card-front">
+            K
+            <span class="club top-left">&#9827;</span>
+            <span class="club bottom-right">&#9827;</span>
+          </div>
+
+          <div class="card-back">
+            <img src="back-card.jpg" alt="back of a playing card">
+          </div>
+
+        </div>
+      </div>
+    </td>
+    <td>10 points</td>
+  </tr>
+
+    </table>
+
+    
+
+
+</body>
+</html>
