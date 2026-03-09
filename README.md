@@ -41,3 +41,36 @@ from htp.css //chatgpt assisted so I could get the cards to flip and glow
     padding: 0;
     background: white;
 }
+
+from styles.css// chatgpt assisted in building the casino table and allowing me to put the cards on there:
+.casino-table {
+        background-color: #006400; 
+        border: 10px solid #8b4513; 
+        border-radius: 50% / 30%;
+        width: 600px;
+        height: 300px;
+        position: relative;
+        box-shadow: 0 0 30px rgba(0,0,0,0.6);
+        margin: 40px auto 20px auto;
+    }
+
+.card-container{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 20px auto 40px auto;
+}
+
+.card{
+    position: absolute;
+    background-color: whitesmoke;
+   border: 1px solid black;         
+   width: 100px;
+   height: 160px;
+   line-height: 160px;
+   text-align: center;
+   font-size: 80px;
+   border-radius: 5px;
+   box-shadow: 3px 3px 0px black;
+   color:black;
+}
