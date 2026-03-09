@@ -21,3 +21,14 @@ repo for project
     }
 }
 
+from htp.css //chatgpt assisted so I could get the cards to flip and glow
+ transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+
+.ranking-cards:hover .card-inner{
+    transform: rotateY(0deg);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(52, 152, 219, 1), 0 0 60px rgba(52, 152, 219, 0.5);
+}
+
